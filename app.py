@@ -35,7 +35,9 @@ rename_mapping = {
     'fee_type' : 'Fees'
     }
 
-st.title('CoWIN Vaccination Slot Availability')
+st.title('Co-WIN Vaccine Slot Availability Checker in Your Area')
+st.markdown('Author:***Nitesh Ranjan Singh***')
+st.text('University of Petroleum and Energy Studies, Dehradun')
 
 # numdays = st.sidebar.slider('Select Date Range', 0, 100, 10)
 unique_districts = list(mapping_df["district name"].unique())
